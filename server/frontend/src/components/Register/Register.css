@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: auto;
   margin-top: 2%;
-  background-color: darkturquoise;
+  background-color: rgb(133, 202, 210);
   min-width: 350px;
   width: 30%;
 }
@@ -39,8 +39,11 @@
   margin-right: 30%;
   cursor: pointer;
   font-size: large;
-  color: rgb(97, 64, 128);
+  color: white;
   border-radius: 10px;
+  border-color: rgb(26,120,164);
+  background-color: #0C9;
+  font-weight: bold;
   height:50px;
 }
 
