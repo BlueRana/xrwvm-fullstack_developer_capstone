@@ -143,6 +143,10 @@ img{
     font-weight: bold;
 }
 
+.contact-body h1{
+    font-weight: bold;
+}
+
 .line{
     width: 4px;
     background-color:#0C9;
