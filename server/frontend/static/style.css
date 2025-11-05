@@ -140,11 +140,13 @@ img{
 }
 
 .contact-body h5{
-
     font-weight: bold;
 }
 
-.vl {
-    border-left: 6px solid green;
-    height: 300px;
+.line{
+    width: 4px;
+    background-color:#0C9;
+    position:absolute;
+    top: 5%;
+    bottom:5%;
   }
