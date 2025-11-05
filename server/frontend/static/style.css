@@ -124,3 +124,27 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+}
+ 
+.contact-body{
+    color: 1A78A4;
+    text-align: center;
+}
+
+.contact-body h5{
+
+    font-weight: bold;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 300px;
+  }
