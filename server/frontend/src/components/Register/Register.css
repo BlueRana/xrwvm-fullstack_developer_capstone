@@ -41,14 +41,13 @@
   font-size: large;
   color: white;
   border-radius: 10px;
-  border-color: rgb(26,120,164);
-  background-color: #0C9;
+  background-color: rgb(26,120,164);
   font-weight: bold;
   height:50px;
 }
 
 .submit:hover {
-  background-color: wheat;
+  background-color: #0C9;
 }
 
 .header{

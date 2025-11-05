@@ -3,7 +3,7 @@ import "./Register.css";
 import user_icon from "../assets/person.png"
 import email_icon from "../assets/email.png"
 import password_icon from "../assets/password.png"
-import close_icon from "../assets/close.png"
+import close_icon from "../assets/2close1A78A4.png"
 
 const Register = () => {
 // State variables for form inputs
