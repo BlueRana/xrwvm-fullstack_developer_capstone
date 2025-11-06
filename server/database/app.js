@@ -83,7 +83,7 @@ try{
 app.get('/fetchDealer/:id', async (req, res) => {
 //Write your code here
 try{
-    const documents = await Dealerships.findById(req.params.id);
+    const documents = await Dealerships.find({id: req.params.id });
     if (documents){
         res.json(documents);
     } else {
