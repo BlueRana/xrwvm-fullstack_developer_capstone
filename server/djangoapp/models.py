@@ -55,6 +55,18 @@ class CarModel(models.Model):
             MaxValueValidator(250000),
             MinValueValidator(0)         
         ])
+    CAR_COLORS = [
+        ('BLACK','Black'),
+        ('CHARCOAL', 'Charcoal'),
+        ('GREY', 'Grey'),
+        ('WHITE', 'White'),
+        ('TAN', 'Tan'),
+        ('YELLOW', 'Yellow'),
+        ('GREEN', 'Green'),
+        ('RED', 'Red'),
+        ('BLUE', 'Blue')    
+        ]
+    color = models.CharField(max_length=10, choices=CAR_COLORS)
     
     # Other fields as needed
 
